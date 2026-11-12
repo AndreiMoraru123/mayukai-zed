@@ -788,7 +788,7 @@
             "font_weight": null
           },
           "constant": {
-            "color": "#cbcebc",
+            "color": "#d4bfff",
             "font_style": null,
             "font_weight": null
           },
@@ -838,7 +838,7 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#ff8f40",
+            "color": "#9dd2bb",
             "font_style": null,
             "font_weight": null
           },
@@ -850,6 +850,16 @@
           "function.kwargs": {
             "color": "#d4bfff",
             "font_style": "italic",
+            "font_weight": null
+          },
+          "function.macro": {
+            "color": "#ffcc66",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.method": {
+            "color": "#ffcc66",
+            "font_style": null,
             "font_weight": null
           },
           "hint": {
@@ -888,7 +898,7 @@
             "font_weight": null
           },
           "label": {
-            "color": "#cbcebc",
+            "color": "#b3b1ad",
             "font_style": null,
             "font_weight": null
           },
@@ -908,7 +918,7 @@
             "font_weight": null
           },
           "namespace": {
-            "color": "#f28779",
+            "color": "#ffb454",
             "font_style": null,
             "font_weight": null
           },
@@ -1017,6 +1027,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "string.regexp": {
+            "color": "#95e6cb",
+            "font_style": null,
+            "font_weight": null
+          },
           "string.special": {
             "color": "#f29668",
             "font_style": null,
@@ -1057,6 +1072,11 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "type.class": {
+            "color": "#f07178",
+            "font_style": null,
+            "font_weight": null
+          },
           "type.class.builtin": {
             "color": "#f28779",
             "font_style": null,
@@ -1072,6 +1092,31 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.enum": {
+            "color": "#9dd2bb",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.event": {
+            "color": "#f29e74",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.interface": {
+            "color": "#ff8f40",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.parameter": {
+            "color": "#ff8f40",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.struct": {
+            "color": "#ffa759",
+            "font_style": null,
+            "font_weight": null
+          },
           "type.unit": {
             "color": "#ffa759",
             "font_style": null,
@@ -1084,7 +1129,7 @@
           },
           "variable.builtin": {
             "color": "#f28779",
-            "font_style": "italic",
+            "font_style": null,
             "font_weight": null
           },
           "variable.parameter": {
@@ -1098,7 +1143,7 @@
             "font_weight": null
           },
           "variant": {
-            "color": "#cbcebc",
+            "color": "#9dd2bb",
             "font_style": null,
             "font_weight": null
           }

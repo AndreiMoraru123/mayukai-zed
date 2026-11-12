@@ -35,8 +35,11 @@ To use the theme file alone, copy `themes/mayukai.json` into
 - Mayukai Reversal
 - Mayukai Midnight
 
-Mayukai Semantic Mirage uses the upstream theme's TextMate colors only. Its
-VS Code semantic token colors are not ported.
+Mayukai Semantic Mirage also carries the upstream theme's semantic token
+colors. They apply when `semantic_tokens` is `"combined"` or `"full"` and the
+language server sends semantic tokens. Zed's default rules have no match for
+`class.readonly`, `class.defaultLibrary`, `property.readonly` and
+`property.defaultLibrary`, so those four colors are left out.
 
 ## License
 
