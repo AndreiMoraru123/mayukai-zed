@@ -3,5 +3,5 @@ name = "Mayukai Theme"
 version = "0.0.1"
 schema_version = 1
 authors = ["Andrei Moraru <81184255+AndreiMoraru123@users.noreply.github.com>"]
-description = "Mayukai Dark, ported from the Mayukai Theme for VS Code."
+description = "The nine Mayukai themes, ported from the Mayukai Theme for VS Code."
 repository = "https://github.com/AndreiMoraru123/mayukai-zed"
