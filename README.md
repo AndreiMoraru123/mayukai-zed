@@ -15,10 +15,13 @@ To use the theme file alone, copy `themes/mayukai.json` into
 
 ## Differences from VS Code
 
-VS Code colors text by TextMate scope. Zed colors it by tree-sitter capture,
-and a Zed theme gives each capture name one style in every language. Where
-Mayukai colors the same capture differently in two languages, this port takes
-the C++ color, then the C color.
+> [!WARNING]
+> This port is tuned for C++ first and C second. A Zed theme gives each
+> tree-sitter capture one style in every language, and it cannot set a style
+> per language. Where Mayukai colors the same capture differently in two
+> languages, the C++ color wins, so other languages can differ from VS Code.
+> YAML keys are `#fc4085` in VS Code and plain here, because Zed captures them
+> as `property`, the capture it also uses for C++ fields.
 
 With `"semantic_tokens": "off"`, C and C++ differ from VS Code in these places:
 
