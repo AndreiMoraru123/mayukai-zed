@@ -2,7 +2,7 @@
 
 A vibecoded port of the nine themes in GulajavaMinistudio's
 [Mayukai Theme](https://github.com/GulajavaMinistudio/Mayukai-Theme) for
-VS Code, version 3.3.0.
+VS Code.
 
 > [!WARNING]
 > I tuned this specifically for C++ first and C second. A Zed theme gives each
